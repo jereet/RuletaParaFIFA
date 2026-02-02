@@ -2,27 +2,137 @@ package com.example.rultafifa
 
 object QuestionsData {
     val sectorQuestions = mutableMapOf(
-        "Castigo" to mapOf(
-            "GENERAL" to listOf(
-                "Proba tu suerte",
-                "Proba tu suerte"
-            )
-        ),
-        "Categoria" to mapOf(
-            "GENERAL" to listOf(
-                "G1"
-            )
-        ),
         "Equipo" to mapOf(
             "GENERAL" to listOf(
-                "Proba tu suerte",
-                "Proba tu suerte"
+                "Mónaco",
+                "Racing de Estrasburgo",
+                "Roma",
+                "Milan",
+                "River Plate",
+                "Boca Juniors",
+                "Benfica",
+                "Bayern Munich",
+                "Tottenham",
+                "Manchester City",
+                "Galatasaray",
+                "Napoli",
+                "Aston Villa",
+                "Juventus",
+                "Racing Club",
+                "Independiente",
+                "Manchester United",
+                "PSG",
+                "Atlético Madrid",
+                "Chelsea",
+                "Liverpool",
+                "Arsenal",
+                "Real Madrid",
+                "Barcelona",
+                "Inter",
+                "Borussia Dortmund",
+                "Inter Miami"
             )
         ),
+
+        "Categoria" to mapOf(
+            "GENERAL" to listOf(
+                "Jugó en Bundesliga",
+                "Campeón con su país",
+                "+30 años",
+                "Nunca jugó un mundial",
+                "-10 títulos en su carrera",
+                "+10 títulos en su carrera",
+                "Campeón del mundo",
+                "Jugó en la liga española",
+                "Ganó el triplete",
+                "Contrato con Adidas",
+                "Contrato con Nike",
+                "Jugó en ambos clásicos rivales",
+                "Europeo",
+                "Sudamericano",
+                "Campeón de Eurocopa",
+                "Campeón de Copa América",
+                "Campeón de Libertadores",
+                "Campeón de Champions",
+                "Actualmente retirado",
+                "Jugó en Serie A",
+                "Jugó en Ligue 1",
+                "Jugó en la LPF",
+                "Ganó Balón de Oro",
+                "Subcampeón internacional",
+                "Campeón de Sudamericana",
+                "Campeón del Mundial de Clubes",
+                "Jugó en un club que descendió",
+                "Capitán de su club",
+                "Hijo de futbolista",
+                "Jugó un mundial sin jugar minutos",
+                "Erró un penal clave (se vale decir Enzo)"
+            )
+        ),
+
+        "Castigo" to mapOf(
+            "GENERAL" to listOf(
+                "Jere",
+                "Gonza",
+                "Enzo",
+                "Santi",
+                "Juli",
+                "Enzo perez (arquero) o Enzo de arquero si es que no salió ya (o lo tenes en tu equipo)",
+                "El de la derecha puede robarte un jugador",
+                "El de la izquierda puede robarte un jugador",
+                "Jugador de liga árabe",
+                "Jugador de Barracas Central",
+                "Jugador de MLS",
+                "Tobio de 9",
+                "Felipe Melo",
+                "Neuer de mediocampista",
+                "Chiquito Romero",
+                "Perder un jugador (todos deciden cuál)",
+                "Libre elección de jugador (pero te roban uno)",
+                "El jugador de la derecha elige tu formación",
+                "El de la izquierda te saca un jugador",
+                "Wanchope Ábila",
+                "Iván Pillud"
+            )
+        ),
+
         "Selecciones" to mapOf(
             "GENERAL" to listOf(
-                "Proba tu suerte",
-                "Proba tu suerte"
+                "Noruega",
+                "Argentina",
+                "España",
+                "USA",
+                "Croacia",
+                "Uruguay",
+                "Portugal",
+                "Egipto",
+                "Colombia",
+                "Ecuador",
+                "México",
+                "Francia",
+                "Italia",
+                "Inglaterra",
+                "Senegal",
+                "Bélgica",
+                "Dinamarca",
+                "Turquía",
+                "Canadá",
+                "Corea del Sur",
+                "Brasil",
+                "Grecia",
+                "Alemania",
+                "Chile",
+                "Holanda",
+                "Hungría",
+                "Camerún",
+                "Suiza",
+                "Polonia",
+                "Paraguay",
+                "Bolivia",
+                "Venezuela",
+                "Perú",
+                "Austria",
+                "Marruecos"
             )
         )
     )

@@ -6,6 +6,16 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp" />
     <!-- Pregunta -->
     <TextView
         android:id="@+id/questionTextView"
@@ -15,7 +25,7 @@
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"
         android:textColor="@android:color/white"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:padding="4dp" />
 
     <!-- Contenedor para Respuesta -->
@@ -36,5 +46,18 @@
             android:textColor="@android:color/white"
             android:padding="8dp" />
     </FrameLayout>
+    <!-- Contenedor de Botones en la parte inferior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
 
+        <Button
+            android:id="@+id/revealButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revelar" />
+    </LinearLayout>
 </LinearLayout>

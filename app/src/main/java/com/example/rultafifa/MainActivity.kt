@@ -261,12 +261,19 @@ class MainActivity : AppCompatActivity() {
         val dialog = AlertDialog.Builder(this)
         val dialogView = layoutInflater.inflate(R.layout.dialog_question, null)
         dialog.setView(dialogView)
-
+        val revealButton = dialogView.findViewById<Button>(R.id.revealButton)
         val questionTextView =
             dialogView.findViewById<TextView>(R.id.questionTextView)
-
+        val Titulo =
+            dialogView.findViewById<TextView>(R.id.Titulo)
+        Titulo.text = sector
+        questionTextView.visibility = View.GONE
         questionTextView.text = text
 
+        revealButton.setOnClickListener {
+            questionTextView.visibility = View.VISIBLE
+            revealButton.visibility = View.GONE
+        }
         dialog.setPositiveButton("Cerrar") { d, _ ->
             d.dismiss()
         }
