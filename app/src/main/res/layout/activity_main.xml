@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#7A11C0">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruleta FIFA"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Contenedor Horizontal para las ruletas y sus frenadores -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <!-- Ruleta pequeña izquierda con su frenador y espaciado -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="100dp"> <!-- Mayor separación a la izquierda -->
+
+        </LinearLayout>
+
+        <!-- Ruleta grande en el centro con su frenador -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/frenadorCenter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/frenador"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:id="@+id/rouletteImage"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:src="@drawable/ruleta"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <!-- Ruleta pequeña derecha con su frenador y espaciado -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginStart="100dp">
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/spinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/girar_la_ruleta"/>
+
+
+
+</LinearLayout>

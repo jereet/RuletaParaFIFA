@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ruleta FIFA</string>
+    <string name="resultado"></string>
+    <string name="girar_la_ruleta">Girar</string>
+    <string name="los_juegos_de_jere">Ruleta FIFA</string>
+    <string name="mostrar_respuesta">Mostrar respuesta</string>
+    <string name="respuesta">Respuesta</string>
+    <string name="visitada">Visitada</string>
+    <string name="respuesta_aqu">Respuesta aquí</string>
+    <string name="lista">Respondio</string>
+    <string name="lista2">Dibujo</string>
+</resources>

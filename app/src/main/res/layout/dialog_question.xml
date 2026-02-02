@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Pregunta -->
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregunta aquí"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="40dp"
+        android:padding="4dp" />
+
+    <!-- Contenedor para Respuesta -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <!-- Respuesta (inicialmente oculta) -->
+        <TextView
+            android:id="@+id/answerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/respuesta_aqu"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:padding="8dp" />
+    </FrameLayout>
+
+</LinearLayout>
