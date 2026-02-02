@@ -62,7 +62,7 @@ object QuestionsData {
                 "Subcampeón internacional",
                 "Campeón de Sudamericana",
                 "Campeón del Mundial de Clubes",
-                "Jugó en un club que descendió",
+                "Descendio con su club",
                 "Capitán de su club",
                 "Hijo de futbolista",
                 "Jugó un mundial sin jugar minutos",
@@ -88,11 +88,17 @@ object QuestionsData {
                 "Neuer de mediocampista",
                 "Chiquito Romero",
                 "Perder un jugador (todos deciden cuál)",
-                "Libre elección de jugador (pero te roban uno)",
+                "Libre elección de jugador (pero te sacan uno)",
                 "El jugador de la derecha elige tu formación",
                 "El de la izquierda te saca un jugador",
                 "Wanchope Ábila",
-                "Iván Pillud"
+                "Iván Pillud",
+                "Lio Prime",
+                "Si te salio Lio Prime tenes que ponerlo de 4",
+                "Si te salio Lio Prime tenes que ponerlo de 2",
+                "Si te salio Lio Prime tenes que ponerlo de Arquero",
+                "Si te salio Lio Prime tenes que ponerlo de MCD",
+                "Si te salio Gonza tenes que ponerlo de 3"
             )
         ),
 
